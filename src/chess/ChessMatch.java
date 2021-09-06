@@ -27,12 +27,7 @@ public class ChessMatch {
 		board.placePiece(new King(board, Color.BLACK), new Position(0,4));
 		board.placePiece(new King(board, Color.WHITE), new Position(7,4));
 	}
-	private int turn;
-	private Color currentPlayer;
-	private boolean check;
-	private boolean checkMatch;
-	private ChessPiece enPassantVulnerable;
-	private ChessPiece promoted;
+	
 	
 
 }
